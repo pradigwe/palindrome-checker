@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;     
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* BODY STYLING */
+body {
+    background-color: #eaefd3;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #27233a;
+    margin-bottom: 30px;
+}
+
+/* CHECKER STYLING */
+div {
+    background-color: #505168;
+    color: #e4e2e2;
+    width: 500px;
+    height: 180px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-self: center;
+    margin-bottom: 20px;
+}
+
+#text-input {
+    margin-top: 20px;
+    width: 50%;
+    background-color: #505168;
+    color: #eaefd3;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    border-bottom: 2px solid #27233a;
+}
+
+#check-btn {
+    width: 25%;
+    font-size: 15px;
+    border-radius: 20px;
+    height: 40px;
+    border: none;
+    background-color: #b3c0a4;
+    color: #27233a;
+}
+
+#result {
+    font-size: 22px;
+    height: 50px;
+}
+
+/* INFO STYLING */
+main > p {
+    background-color: #dcc48e;
+    color: #505168;
+    width: 500px;
+    padding: 30px;
+    align-content: center;
+    text-align: center;
+    border-radius: 20px;
+    justify-self: center;
+}
+
